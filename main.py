@@ -1,7 +1,7 @@
 from addition import add
 from substraction import sub
-from multiplication import mul
-from division import div
+from multiplication import multiply
+from division import division
 
 
 if __name__ == "__main__":
@@ -21,8 +21,8 @@ if __name__ == "__main__":
     elif sel == 2:
         print(n1, "-", n2, "=", sub(n1, n2))
     elif sel == 3:
-        print(n1, "*", n2, "=", mul(n1, n2))
+        print(n1, "*", n2, "=", multiply(n1, n2))
     elif sel == 4:
-        print(n1, "/", n2, "=", div(n1, n2))
+        print(n1, "/", n2, "=", division(n1, n2))
     else:
         print("Invalid input")
